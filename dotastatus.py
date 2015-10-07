@@ -11,7 +11,7 @@ class DotaStatus:
 		'Offline':['Dota server is Offline','images/status-offline.png'], 
 		'Critical':['Dota server is in critical mode','images/status-critical.png'], 
 		'High Load':['Dota server is in high load mode','images/status-high-load.png'],
-		'High Load':['Cannot connect to Steamdb','images/kappa.png']}
+		'Steambd':['Cannot connect to Steamdb','images/kappa.png']}
 	
 	def showStatus(self):
 		#Using curl because steamdb has bot protection and maybe they will be give me a ban soon
